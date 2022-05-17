@@ -1,0 +1,7 @@
+{
+  "name": "ptopcmc",
+  "version": 2,
+  "routes": [
+    {"src": "/(.*)","dest": "https://pro-api.coinmarketcap.com/$1"}
+  ]
+}
